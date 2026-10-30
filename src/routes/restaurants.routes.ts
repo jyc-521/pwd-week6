@@ -1,4 +1,3 @@
-// src/routes/restaurants.routes.ts
 import { Router } from 'express';
 import * as restaurantsController from '../controllers/restaurants.controller';
 

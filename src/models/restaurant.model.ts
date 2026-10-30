@@ -1,4 +1,3 @@
-// src/models/restaurant.model.ts
 import type { RestaurantData, RestaurantInput } from '../types/restaurant.types';
 
 export default class Restaurant implements RestaurantData {
@@ -42,3 +41,4 @@ export default class Restaurant implements RestaurantData {
     return this;
   }
 }
+

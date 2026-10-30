@@ -1,4 +1,3 @@
-// src/utils/asyncHandler.ts
 import type { NextFunction, Request, RequestHandler, Response } from 'express';
 
 export default function asyncHandler<

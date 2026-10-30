@@ -1,4 +1,3 @@
-// src/middleware/notFound.middleware.ts
 import type { RequestHandler } from 'express';
 import type { ErrorResponse } from '../types/api.types';
 

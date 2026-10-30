@@ -1,4 +1,3 @@
-// src/services/restaurants.service.ts
 import path from 'node:path';
 import { readFile } from 'node:fs/promises';
 import { readFileSync } from 'node:fs';
@@ -98,3 +97,4 @@ export async function createRestaurant(payload: Partial<CreateRestaurantInput>):
 export function resetStore(): void {
   restaurantCache = loadRestaurantsSync();
 }
+

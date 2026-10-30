@@ -1,4 +1,3 @@
-// src/app.ts
 import express, { type Express } from 'express';
 import cors from 'cors';
 import restaurantsRouter from './routes/restaurants.routes';
@@ -23,3 +22,4 @@ export default function createApp(): Express {
 
   return app;
 }
+

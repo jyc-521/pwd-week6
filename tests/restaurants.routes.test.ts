@@ -1,4 +1,3 @@
-// tests/restaurants.routes.test.ts
 import type { Express } from 'express';
 import request from 'supertest';
 import createApp from '../src/app';

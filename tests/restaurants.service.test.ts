@@ -1,4 +1,3 @@
-// tests/restaurants.service.test.ts
 import * as restaurantService from '../src/services/restaurants.service';
 
 describe('RestaurantService', () => {

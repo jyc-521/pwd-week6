@@ -1,4 +1,3 @@
-// src/controllers/restaurants.controller.ts
 import type { RequestHandler } from 'express';
 import * as restaurantService from '../services/restaurants.service';
 import type { DataResponse, ErrorResponse } from '../types/api.types';
